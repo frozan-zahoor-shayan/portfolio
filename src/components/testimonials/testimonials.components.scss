@@ -4,12 +4,14 @@
   // background-color: red;
   background: $bg-variant-color;
   border-radius: 2rem;
-  width: 40%;
+  width: 30%;
+  // width: fit-content;
   @include medium-devices {
-    width: 60%;
+    width: 57%;
   }
   @include small-devices {
     width: $container-width-sm;
+    width: 90%;
   }
 }
 
@@ -24,7 +26,8 @@
 
 .client_avatar {
   // background-color: red;
-  width: 25rem;
+  // width: 25rem;
+  width: 100%;
   // aspect-ratio: 1/1;
   overflow: hidden;
   border-radius: 2rem;
@@ -32,6 +35,13 @@
   margin: 0 auto;
   // border: 0.4rem solid $primary-color-variant;
   margin-bottom: 1.5rem;
+
+  @include medium-devices{
+    width: 20rem;
+  }
+  @include small-devices{
+    width: 17rem;
+  }
 }
 
 .client_review {
