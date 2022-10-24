@@ -53,9 +53,9 @@ function Contact() {
           <article className="contact_option">
             <MdOutlineEmail className="contact_option_icon" />
             <h4>Email</h4>
-            <h5>mudasersayeed@gmail.com</h5>
+            <h5>fazela.sayeedi6651@gmail.com</h5>
             <a
-              href="mailto:mudasersayeed@gmail.com"
+              href="mailto:fazela.sayeedi6651@gmail.com"
               target="_blank"
               rel="noreferrer"
             >
@@ -63,14 +63,14 @@ function Contact() {
             </a>
           </article>
 
-          <article className="contact_option">
+          {/* <article className="contact_option">
             <RiMessengerLine className="contact_option_icon" />
             <h4>Messenger</h4>
             <h5>Mudaser Saeedi</h5>
             <a href="https://m.me/username" target="_blank" rel="noreferrer">
               Send a message
             </a>
-          </article>
+          </article> */}
 
           <article className="contact_option">
             <BsWhatsapp className="contact_option_icon" />
@@ -87,7 +87,7 @@ function Contact() {
         </div>
         {/* end of contact options */}
 
-        <div className="alert_container">
+        {/* <div className="alert_container">
           <Zoom in={open}>
             <Alert
               id="al"
@@ -129,7 +129,7 @@ function Contact() {
           <button type="submit" className="btn btn-primary">
             Send Message
           </button>
-        </form>
+        </form> */}
       </div>
     </section>
   );

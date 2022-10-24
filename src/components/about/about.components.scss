@@ -84,6 +84,7 @@
   p {
     margin: 2rem 0 2.6rem;
     color: $light-color;
+    text-align: justify;
     @include medium-devices {
       margin: 1rem 0 1.5rem;
     }

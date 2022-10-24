@@ -3,14 +3,14 @@ import "./footer.components.scss";
 import { FaFacebook } from 'react-icons/fa';
 import { FiInstagram } from 'react-icons/fi';
 import { IoLogoTwitter } from "react-icons/io";
-import Me from "../../assets/images/me-about 2.png";
+import Me from "../../assets/images/me.jpg";
 
 function Footer() {
   return (
     <footer>
       <a href="#header" className="footer_logo">
-        <img src={Me} alt="" />
-        Sayed Mudaser Sayeedi
+        {/* <img src={Me} alt="" /> */}
+        Fazela ZohorSayeedi
       </a>
 
       <ul className="permalinks">
@@ -20,24 +20,24 @@ function Footer() {
         <li>
           <a href="#about">About</a>
         </li>
-        <li>
-          <a href="#experience">Experience</a>
+        {/* <li>
+          <a href="#portfolio">Portfolio</a>
         </li>
         <li>
           <a href="#services">Services</a>
-        </li>
+        </li> */}
         <li>
           <a href="#portfolio">Portfolio</a>
         </li>
         <li>
-          <a href="#testimonials">Testimonials</a>
+          <a href="#testimonials">Gallary</a>
         </li>
         <li>
           <a href="#contact">Contact</a>
         </li>
       </ul>
 
-      <div className="footer_socials">
+      {/* <div className="footer_socials">
         <a href="https://facebook.com">
           <FaFacebook />
         </a>
@@ -47,10 +47,10 @@ function Footer() {
         <a href="https://twitter.com">
           <IoLogoTwitter />
         </a>
-      </div>
+      </div> */}
 
       <div className="footer_copyright">
-        <small>Copyright &copy; 2022 Sayed Mudaser, All Rights Reserved</small>
+        <small>Copyright &copy; 2022 Fazela ZohorSayeedi, All Rights Reserved</small>
       </div>
     </footer>
   );

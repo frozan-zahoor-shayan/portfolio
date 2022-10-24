@@ -1,9 +1,34 @@
 import React from "react";
 import "./testimonials.components.scss";
-import AVATAR1 from '../../assets/images/avatar1.jpg';
-import AVATAR2 from '../../assets/images/avatar2.jpg';
-import AVATAR3 from '../../assets/images/avatar3.jpg';
-import avatar4 from "../../assets/images/avatar4.jpg";
+
+import gallary1 from "../../assets/images/gallary/gallary1.jpg";
+import gallary2 from "../../assets/images/gallary/gallary2.jpg";
+import gallary3 from "../../assets/images/gallary/gallary3.jpg";
+import gallary4 from "../../assets/images/gallary/gallary4.jpg";
+import gallary5 from "../../assets/images/gallary/gallary5.jpg";
+import gallary6 from "../../assets/images/gallary/gallary6.jpg";
+import gallary7 from "../../assets/images/gallary/gallary7.jpg";
+import gallary8 from "../../assets/images/gallary/gallary8.jpg";
+import gallary9 from "../../assets/images/gallary/gallary9.jpg";
+import gallaryL1 from "../../assets/images/gallary/gallaryL1.jpg";
+import gallaryL2 from "../../assets/images/gallary/gallaryL2.jpg";
+import gallaryL3 from "../../assets/images/gallary/gallaryL3.jpg";
+import gallaryL4 from "../../assets/images/gallary/gallaryL4.jpg";
+import gallaryL5 from "../../assets/images/gallary/gallaryL5.jpg";
+import gallaryL6 from "../../assets/images/gallary/gallaryL6.jpg";
+import gallaryL7 from "../../assets/images/gallary/gallaryL7.jpg";
+import gallaryL8 from "../../assets/images/gallary/gallaryL8.jpg";
+import gallaryL9 from "../../assets/images/gallary/gallaryL9.jpg";
+import gallaryL10 from "../../assets/images/gallary/gallaryL10.jpg";
+import gallaryL11 from "../../assets/images/gallary/gallaryL11.jpg";
+import gallaryL12 from "../../assets/images/gallary/gallaryL12.jpg";
+import gallaryL13 from "../../assets/images/gallary/gallaryL13.jpg";
+import gallaryL14 from "../../assets/images/gallary/gallaryL14.jpg";
+import gallaryL15 from "../../assets/images/gallary/gallaryL15.jpg";
+import gallaryL16 from "../../assets/images/gallary/gallaryL16.jpg";
+import gallaryL17 from "../../assets/images/gallary/gallaryL17.jpg";
+import gallaryL18 from "../../assets/images/gallary/gallaryL18.jpg";
+import gallaryL19 from "../../assets/images/gallary/gallaryL19.jpg";
 
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
@@ -13,58 +38,142 @@ import "swiper/css/pagination";
 // import required modules
 import { Pagination } from "swiper";
 
-
 function Testimonials() {
   const data = [
     {
-      avatar: AVATAR1,
-      name: "Muhib Ur Rahman Niazi",
-      review:
-        "Since having our new website built by Mudaser Sayeedi, we have seen a 100% increase in the number of online contact forms being filled out and returned to us. Sayeedi and his team worked closely with us to provide a site that met all of the criteria that we were looking for. The end result was a website that is attractive, organized and effective. Thanks to Mudaser sayeedi for all of your hard work and support!",
+      avatar: gallary1,
     },
     {
-      avatar: AVATAR2,
-      name: "Alina Alami",
-      review:
-        "I have experienced one of the most talented, creative, friendly, lexible software engineer in my whole work life. Mr.Sayeedi caught quickly and exactly that I wanted, I have recieved more than what I had expected... words can not explain how unique the final result was, Most passionate to work with people, more productive and publishes hight quality softwares. It was such a pleasure to had the opportunity of working with Mr.Sayeedi."
+      avatar: gallary2,
     },
     {
-      avatar: AVATAR3,
-      name: "Esmat Rahmani",
-      review:
-        "Dear Mudaser Sayeedi I am pleased with your determination to finish this project, Your helpful attitude shows you are ready to take on new challenges and grow with the company. I'm excited to have another project with you. Good luck."
+      avatar: gallary3,
     },
     {
-      avatar: avatar4,
-      name: "Nana Ama McBrown",
-      review:
-        "Velit in veniam cillum elit irure. Cillum eu pariatur ullamco id commodo commodo aliquip. Sit consectetur exercitation cillum consectetur nulla aliqua voluptate. Est commodo anim ipsum aute sunt nisi. Amet ex in nisi proident sit ut officia sint. Culpa do ad in culpa commodo aute.",
+      avatar: gallary4,
+    },
+    {
+      avatar: gallary5,
+    },
+    {
+      avatar: gallary6,
+    },
+    {
+      avatar: gallary7,
+    },
+    {
+      avatar: gallary8,
+    },
+    {
+      avatar: gallary9,
+    },
+  ];
+
+  const dataL = [
+    {
+      avatar: gallaryL1,
+    },
+    {
+      avatar: gallaryL2,
+    },
+    {
+      avatar: gallaryL3,
+    },
+    {
+      avatar: gallaryL4,
+    },
+    {
+      avatar: gallaryL5,
+    },
+    {
+      avatar: gallaryL6,
+    },
+    {
+      avatar: gallaryL7,
+    },
+    {
+      avatar: gallaryL8,
+    },
+    {
+      avatar: gallaryL9,
+    },
+    {
+      avatar: gallaryL10,
+    },
+    {
+      avatar: gallaryL11,
+    },
+    {
+      avatar: gallaryL12,
+    },
+    {
+      avatar: gallaryL13,
+    },
+    {
+      avatar: gallaryL14,
+    },
+    {
+      avatar: gallaryL15,
+    },
+    {
+      avatar: gallaryL16,
+    },
+    {
+      avatar: gallaryL17,
+    },
+    {
+      avatar: gallaryL18,
+    },
+    {
+      avatar: gallaryL19,
     },
   ];
 
   return (
     <section id="testimonials">
-      <h5>Review from clients</h5>
-      <h2>Testimonials</h2>
+      <h5>My Students</h5>
+      <h2>Gallary</h2>
+      <h5>Swipe Right For Next </h5>
 
-      <Swiper
-        pagination={{ clickable: true }}
-        spaceBetween={40}
-        modules={[Pagination]}
-        className="mySwiper container testimonials_container"
-      >
-        {data.map(({ avatar, name, review }, i) => {
-          return (
-            <SwiperSlide key={i} className="testimonial">
-              <div className="client_avatar">
-                <img src={avatar} alt="Avatar One" />
-              </div>
-              <h5 className="client_name">{name}</h5>
-              <small className="client_review">{review}</small>
-            </SwiperSlide>
-          );
-        })}
-      </Swiper>
+      <div className="divider">
+        <Swiper
+          pagination={{ clickable: true }}
+          spaceBetween={40}
+          modules={[Pagination]}
+          className="mySwiper container testimonials_container"
+        >
+          {data.map(({ avatar, name, review }, i) => {
+            return (
+              <SwiperSlide key={i} className="testimonial">
+                <div className="client_avatar">
+                  <img src={avatar} alt="Avatar One" />
+                </div>
+                {/* <h5 className="client_name">{name}</h5>
+              <small className="client_review">{review}</small> */}
+              </SwiperSlide>
+            );
+          })}
+        </Swiper>
+
+        <Swiper
+          pagination={{ clickable: true }}
+          spaceBetween={40}
+          modules={[Pagination]}
+          className="mySwiper container testimonials_container"
+        >
+          {dataL.map(({ avatar, name, review }, i) => {
+            return (
+              <SwiperSlide key={i} className="testimonial">
+                <div className="client_avatar">
+                  <img src={avatar} alt="Avatar One" />
+                </div>
+                {/* <h5 className="client_name">{name}</h5>
+              <small className="client_review">{review}</small> */}
+              </SwiperSlide>
+            );
+          })}
+        </Swiper>
+      </div>
     </section>
   );
 }

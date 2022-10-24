@@ -1,22 +1,32 @@
-@import '../scss/style.config.scss';
+@import "../scss/style.config.scss";
 
 .portfolio_container {
   // background-color: red;
-  
+
   // display: grid;
   // grid-template-columns: repeat(3, 1fr);
   // gap: 2.5rem;
-  width: 30rem;
-  @include medium-devices{
+  // width: 30rem;
+  width: 25rem;
+  // height: 30rem;
+  // overflow: hidden;
+
+  @include medium-devices {
     // grid-template-columns: 1fr 1fr;
     // gap: 1.2rem;
     width: 20rem;
   }
-  @include small-devices{
+  @include small-devices {
     // grid-template-columns: 1fr;
     // gap: 1rem;
     width: 20rem;
   }
+}
+
+.divider{
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
 }
 
 .portfolio_item {
@@ -25,24 +35,29 @@
   border-radius: 2rem;
   border: 1px solid transparent;
   transition: $transition;
+
   &:hover {
     border-width: 2px;
     border-color: $primary-color-variant;
     // background: transparent;
   }
-  h3{
+  h3 {
     margin: 1.2rem 0 2rem;
   }
 }
 
-.portfolio_item_image{
-    border-radius: 1.5rem;
-    overflow: hidden;
+.portfolio_item_image {
+  background-color: red;
+  border-radius: 1.5rem;
+  overflow: hidden;
+  // width: 200px;
+  img {
+    // width: 100%;
+  }
 }
 
-.portfolio_item_cta{
-    display: flex;
-    gap: 1rem;
-    margin-bottom: 1rem;
-
+.portfolio_item_cta {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1rem;
 }

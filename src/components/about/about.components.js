@@ -1,6 +1,6 @@
 import React from "react";
 import "./about.components.scss";
-import ME from "../../assets/images/me-about 2.png";
+import ME from "../../assets/images/me-about.JPG";
 import { FaAward } from "react-icons/fa";
 import { FiUsers } from "react-icons/fi";
 import { VscFolderLibrary } from "react-icons/vsc";
@@ -23,38 +23,34 @@ function About() {
             <article className="about_card">
               <FaAward className="about_icon" />
               <h5>Experience</h5>
-              <small>3+ Years Working</small>
+              <small>20+ Years Working</small>
             </article>
 
             <article className="about_card">
               <FiUsers className="about_icon" />
-              <h5>Clients</h5>
-              <small>10+ Wordwide</small>
+              <h5>Students</h5>
+              <small>100+</small>
             </article>
 
             <article className="about_card">
               <VscFolderLibrary className="about_icon" />
-              <h5>Projects</h5>
-              <small>20+ Completed</small>
+              <h5>portfolio</h5>
+              <small>50+ Completed</small>
             </article>
           </div>
 
           <p>
-            I am an experienced software developer. I bring more than three
-            years’ experience writing JavaScript full-stack Web-Applications and
-            Mobile-Applications. Spearheaded successful transition from LAMP
-            stack to MERN stack which cut latency by 40% and increased
-            effectiveness of Database administrators by 20%.
+            I am an experienced art teacher. I bring about 20 years’ experience
+            working in art and different sections related to my field of study.
+            Due to my qualification, extensive background, training I was able
+            to graduate students for 8 years in any different field of art I am
+            very confident of Management, Supervision, Monitoring, evaluation,
+            Coordinating, reporting, Analyzing, interpreting, team work.
           </p>
           <p>
-            I am a Full-Stack Developer who has a wide range of Front-End and
-            Back-End skills, and extensive experience of using Object-Oriented
-            languages. I really enjoy writing optimized Object-Oriented code and
-            am very good at building and maintaining applications that support
-            the solutions delivered to both internal and external customers. I
-            always look to add my own magical touch to any new code that I
-            write, and would like to mention that in the past I have worked
-            alongside some very technically able individuals in the industry.
+            I have worked with save the children Fund They provided awards for
+            our students and we have worked together in 2 expositions in 2 years
+            which was held for children arts.
           </p>
 
           <a href="#contact" className="btn btn-primary">
