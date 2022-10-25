@@ -3,8 +3,10 @@ import "./nav.components.scss";
 import { AiOutlineHome } from "react-icons/ai";
 import { AiOutlineUser } from "react-icons/ai";
 import { BiBook } from "react-icons/bi";
-import { RiServiceLine } from "react-icons/ri";
+// import { RiServiceLine } from "react-icons/ri";
+import { RiGalleryFill } from "react-icons/ri";
 import { BiMessageSquareDetail } from "react-icons/bi";
+import { FaAward } from "react-icons/fa";
 
 function Nav() {
   const [activeNav,SetActiveNav]=useState('header')
@@ -36,7 +38,14 @@ function Nav() {
         className={activeNav === "services" ? "active" : ""}
         onClick={() => SetActiveNav("services")}
       >
-        <RiServiceLine />
+        <RiGalleryFill/>
+      </a>
+      <a
+        href="#certifications"
+        className={activeNav === "certification" ? "active" : ""}
+        onClick={() => SetActiveNav("certification")}
+      >
+        <FaAward />
       </a>
       <a
         href="#contact"

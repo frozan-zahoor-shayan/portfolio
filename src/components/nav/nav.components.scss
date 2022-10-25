@@ -16,6 +16,11 @@ nav {
   backdrop-filter: blur(15px);
   -webkit-backdrop-filter: blur(15px);
 
+  @include small-devices {
+    gap: 0.5rem;
+    padding: 0.7rem 0.5rem;
+  }
+
   a {
     background: transparent;
     padding: 0.9rem;

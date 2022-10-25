@@ -1,5 +1,6 @@
 import React from "react";
 import About from "../../components/about/about.components";
+import Certification from "../../components/certifications/certification.component";
 import Contact from "../../components/contact/contact.components";
 import Experience from "../../components/experience/experience.components";
 import Footer from "../../components/footer/footer.components";
@@ -21,6 +22,7 @@ const Main = () => {
       {/* <Services></Services> */}
       <Portfolio></Portfolio>
       <Testimonials></Testimonials>
+      <Certification></Certification>
       <Contact></Contact>
       <Footer></Footer>
     </>

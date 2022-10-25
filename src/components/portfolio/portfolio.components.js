@@ -3,7 +3,7 @@ import "./portfolio.components.scss";
 import IMG1 from "../../assets/images/portfolios/portfolio1.jpg";
 import IMG2 from "../../assets/images/portfolios/portfolio2.jpg";
 import IMG3 from "../../assets/images/portfolios/portfolio3.jpg";
-import IMG4 from "../../assets/images/portfolios/portfolio4.jpg";
+// import IMG4 from "../../assets/images/portfolios/portfolio4.jpg";
 import IMG5 from "../../assets/images/portfolios/portfolio5.jpg";
 import IMG6 from "../../assets/images/portfolios/portfolio6.jpg";
 import IMG7 from "../../assets/images/portfolios/portfolio7.jpg";
@@ -49,7 +49,7 @@ import IMG46 from "../../assets/images/portfolios/portfolio46.jpg";
 import IMG47 from "../../assets/images/portfolios/portfolio47.jpg";
 import IMG48 from "../../assets/images/portfolios/portfolio48.jpg";
 import IMG49 from "../../assets/images/portfolios/portfolio49.jpg";
-import IMG50 from "../../assets/images/portfolios/portfolio50.jpg";
+// import IMG50 from "../../assets/images/portfolios/portfolio50.jpg";
 
 import IMGL1 from "../../assets/images/portfolios/portfolioL1.jpg";
 import IMGL2 from "../../assets/images/portfolios/portfolioL2.jpg";
@@ -89,10 +89,10 @@ function Portfolio() {
       id: 3,
       image: IMG3,
     },
-    {
-      id: 4,
-      image: IMG4,
-    },
+    // {
+    //   id: 4,
+    //   image: IMG4,
+    // },
     {
       id: 5,
       image: IMG5,
@@ -273,10 +273,10 @@ function Portfolio() {
       id: 49,
       image: IMG49,
     },
-    {
-      id: 50,
-      image: IMG50,
-    },
+    // {
+    //   id: 50,
+    //   image: IMG50,
+    // },
   ];
 
   const dataL = [
