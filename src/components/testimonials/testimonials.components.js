@@ -132,7 +132,7 @@ function Testimonials() {
   return (
     <section id="testimonials">
       <h5>My Students</h5>
-      <h2>Gallary</h2>
+      <h2>Gallery</h2>
       <h5>Swipe Right For Next </h5>
 
       <div className="divider">
