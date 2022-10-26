@@ -49,7 +49,7 @@ import IMG46 from "../../assets/images/portfolios/portfolio46.jpg";
 import IMG47 from "../../assets/images/portfolios/portfolio47.jpg";
 import IMG48 from "../../assets/images/portfolios/portfolio48.jpg";
 import IMG49 from "../../assets/images/portfolios/portfolio49.jpg";
-// import IMG50 from "../../assets/images/portfolios/portfolio50.jpg";
+import IMG50 from "../../assets/images/portfolios/portfolioA.jpg";
 
 import IMGL1 from "../../assets/images/portfolios/portfolioL1.jpg";
 import IMGL2 from "../../assets/images/portfolios/portfolioL2.jpg";
@@ -65,6 +65,8 @@ import IMGL11 from "../../assets/images/portfolios/portfolioL11.jpg";
 import IMGL12 from "../../assets/images/portfolios/portfolioL12.jpg";
 import IMGL13 from "../../assets/images/portfolios/portfolioL13.jpg";
 import IMGL14 from "../../assets/images/portfolios/portfolioL14.jpg";
+import IMGL15 from "../../assets/images/portfolios/portfolioLA.jpg";
+import IMGL16 from "../../assets/images/portfolios/portfolioC.jpg";
 
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
@@ -77,6 +79,10 @@ import { EffectCards } from "swiper";
 
 function Portfolio() {
   const data = [
+    {
+      id: 50,
+      image: IMG50,
+    },
     {
       id: 1,
       image: IMG1,
@@ -280,6 +286,14 @@ function Portfolio() {
   ];
 
   const dataL = [
+    {
+      id: 15,
+      image: IMGL15,
+    },
+    {
+      id: 16,
+      image: IMGL16,
+    },
     {
       id: 1,
       image: IMGL1,

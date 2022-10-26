@@ -1,9 +1,9 @@
 import React from "react";
 import "./footer.components.scss";
-import { FaFacebook } from 'react-icons/fa';
-import { FiInstagram } from 'react-icons/fi';
-import { IoLogoTwitter } from "react-icons/io";
-import Me from "../../assets/images/me.jpg";
+// import { FaFacebook } from 'react-icons/fa';
+// import { FiInstagram } from 'react-icons/fi';
+// import { IoLogoTwitter } from "react-icons/io";
+// import Me from "../../assets/images/me.jpg";
 
 function Footer() {
   return (
@@ -33,6 +33,9 @@ function Footer() {
           <a href="#testimonials">Gallary</a>
         </li>
         <li>
+          <a href="#certifications">Certifications</a>
+        </li>
+        <li>
           <a href="#contact">Contact</a>
         </li>
       </ul>
@@ -50,7 +53,9 @@ function Footer() {
       </div> */}
 
       <div className="footer_copyright">
-        <small>Copyright &copy; 2022 Fazela ZohorSayeedi, All Rights Reserved</small>
+        <small>
+          Copyright &copy; 2022 Fazela ZohorSayeedi, All Rights Reserved
+        </small>
       </div>
     </footer>
   );
