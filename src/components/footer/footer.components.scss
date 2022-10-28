@@ -2,6 +2,7 @@
 
 footer {
   background: $primary-color;
+  background: #004e92;
   padding: 3rem 0;
   text-align: center;
   font-size: 0.9rem;
@@ -12,6 +13,8 @@ footer {
     color: $white-color;
     &:hover {
       color: $bg-color;
+      color: $primary-color;
+      border-bottom: 1px solid $white-color;
     }
   }
 
@@ -64,7 +67,7 @@ footer {
   margin-bottom: 4rem;
 
   a {
-    background: $bg-color;
+    background: $bg-color; 
     color: $white-color;
     padding: 0.8rem;
     border-radius: 0.7rem;
@@ -84,6 +87,8 @@ footer {
 }
 
 .footer_copyright {
-  margin-bottom: 4rem;
+  // background-color: red;
+  // margin-bottom: 0.1rem;
   color: $bg-color;
+  color: gray;
 }

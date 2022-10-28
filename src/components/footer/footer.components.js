@@ -10,7 +10,7 @@ function Footer() {
     <footer>
       <a href="#header" className="footer_logo">
         {/* <img src={Me} alt="" /> */}
-        Fazela ZohorSayeedi
+        Frozan Zahoor Shayan
       </a>
 
       <ul className="permalinks">
@@ -54,7 +54,7 @@ function Footer() {
 
       <div className="footer_copyright">
         <small>
-          Copyright &copy; 2022 Fazela ZohorSayeedi, All Rights Reserved
+          Copyright &copy; 2022 Frozan Zahoor Shayan, All Rights Reserved
         </small>
       </div>
     </footer>

@@ -5,7 +5,7 @@ import Contact from "../../components/contact/contact.components";
 // import Experience from "../../components/experience/experience.components";
 import Footer from "../../components/footer/footer.components";
 import Header from "../../components/header/header.components";
-import Nav from "../../components/nav/nav.components";
+// import Nav from "../../components/nav/nav.components";
 import Portfolio from "../../components/portfolio/portfolio.components";
 // import Services from "../../components/services/services.components";
 import Testimonials from "../../components/testimonials/testimonials.components";
@@ -15,8 +15,9 @@ import "./main.page.scss";
 const Main = () => {
   return (
     <>
+      {/* <div className="background"></div> */}
       <Header></Header>
-      <Nav></Nav>
+      {/* <Nav></Nav> */}
       <About></About>
       {/* <Experience></Experience> */}
       {/* <Services></Services> */}
@@ -26,7 +27,7 @@ const Main = () => {
       <Contact></Contact>
       <Footer></Footer>
     </>
-  )
+  );
 };
 
 export default Main;

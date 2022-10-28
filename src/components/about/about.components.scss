@@ -1,8 +1,14 @@
 @import "../scss/style.config.scss";
 
 .about_container {
-  display: grid;
-  grid-template-columns: 35% 50%;
+  // background-color: red;
+  // display: grid;
+  // grid-template-columns: 35% 50%;
+
+  width: 50%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
   gap: 15%;
   @include medium-devices {
     grid-template-columns: 1fr;

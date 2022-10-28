@@ -14,28 +14,28 @@ function Contact() {
   const form = useRef();
   const [open, setOpen] = React.useState(false);
 
-  const sendEmail = (e) => {
-    e.preventDefault();
+  // const sendEmail = (e) => {
+  //   e.preventDefault();
 
-    emailjs
-      .sendForm(
-        "service_jjp194v",
-        "template_sn9lwf8",
-        form.current,
-        "nZ6esmCDc_2cDjcbV"
-      )
-      .then(
-        (result) => {
-          console.log(result.text);
-          e.target.reset();
-          setOpen(true);
-        },
-        (error) => {
-          console.log(error.text);
-          alert(error.text);
-        }
-      );
-  };
+  //   emailjs
+  //     .sendForm(
+  //       "service_jjp194v",
+  //       "template_sn9lwf8",
+  //       form.current,
+  //       "nZ6esmCDc_2cDjcbV"
+  //     )
+  //     .then(
+  //       (result) => {
+  //         console.log(result.text);
+  //         e.target.reset();
+  //         setOpen(true);
+  //       },
+  //       (error) => {
+  //         console.log(error.text);
+  //         alert(error.text);
+  //       }
+  //     );
+  // };
 
   if (open) {
     setTimeout(() => {
@@ -53,7 +53,7 @@ function Contact() {
           <article className="contact_option">
             <MdOutlineEmail className="contact_option_icon" />
             <h4>Email</h4>
-            <h5>fazela.sayeedi6651@gmail.com</h5>
+            <h5>frozan.zahoorshayan@gmail.com</h5>
             <a
               href="mailto:fazela.sayeedi6651@gmail.com"
               target="_blank"
@@ -75,7 +75,7 @@ function Contact() {
           <article className="contact_option">
             <BsWhatsapp className="contact_option_icon" />
             <h4>WhatsApp</h4>
-            <h5>+93784300010</h5>
+            <h5>+93771477317</h5>
             <a
               href="https://api.whatsapp.com/send?phone=+93784300010 "
               target="_blank"

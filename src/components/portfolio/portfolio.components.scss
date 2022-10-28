@@ -11,6 +11,8 @@
   // height: 30rem;
   // overflow: hidden;
 
+  user-select: none;
+
   @include medium-devices {
     // grid-template-columns: 1fr 1fr;
     // gap: 1.2rem;
@@ -30,15 +32,17 @@
 }
 
 .portfolio_item {
-  background: $bg-variant-color;
-  padding: 1.2rem;
+  background: $primary-color-variant;
+  // padding: 1.2rem;
   border-radius: 2rem;
-  border: 1px solid transparent;
+  border: 10px solid transparent;
   transition: $transition;
 
+  overflow: hidden;
+
   &:hover {
-    border-width: 2px;
-    border-color: $primary-color-variant;
+    // border-width: 2px;
+    border-color: $bg-variant-color;
     // background: transparent;
   }
   h3 {
@@ -48,8 +52,8 @@
 
 .portfolio_item_image {
   background-color: red;
-  border-radius: 1.5rem;
-  overflow: hidden;
+  // border-radius: 1.5rem;
+  // overflow: hidden;
   // width: 200px;
   img {
     // width: 100%;
