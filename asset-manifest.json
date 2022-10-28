@@ -1,10 +1,10 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.05903bdf.css",
-    "main.js": "/portfolio/static/js/main.42fb44c5.js",
+    "main.js": "/portfolio/static/js/main.a85fd73e.js",
     "static/js/787.fc697b26.chunk.js": "/portfolio/static/js/787.fc697b26.chunk.js",
     "static/media/certification1.jpg": "/portfolio/static/media/certification1.d3d7f1514697ac38e91c.jpg",
-    "static/media/frozanZohorshayan_CV.pdf": "/portfolio/static/media/frozanZohorshayan_CV.dff6a8411bd4e308b563.pdf",
+    "static/media/frozanZohorshayan_CV.pdf": "/portfolio/static/media/frozanZohorshayan_CV.b3893d0c6222e8930f03.pdf",
     "static/media/certification5.jpg": "/portfolio/static/media/certification5.6e4abac361ca4db206f8.jpg",
     "static/media/certificateL5.jpg": "/portfolio/static/media/certificateL5.2302cba26dafdd404e6c.jpg",
     "static/media/certificateL3.jpg": "/portfolio/static/media/certificateL3.571ade09e40be53123d6.jpg",
@@ -64,11 +64,11 @@
     "static/media/portfolioL8.jpg": "/portfolio/static/media/portfolioL8.c3ed9d2fb797f80e8abf.jpg",
     "index.html": "/portfolio/index.html",
     "main.05903bdf.css.map": "/portfolio/static/css/main.05903bdf.css.map",
-    "main.42fb44c5.js.map": "/portfolio/static/js/main.42fb44c5.js.map",
+    "main.a85fd73e.js.map": "/portfolio/static/js/main.a85fd73e.js.map",
     "787.fc697b26.chunk.js.map": "/portfolio/static/js/787.fc697b26.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.05903bdf.css",
-    "static/js/main.42fb44c5.js"
+    "static/js/main.a85fd73e.js"
   ]
 }
