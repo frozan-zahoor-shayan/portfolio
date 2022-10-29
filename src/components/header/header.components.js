@@ -9,7 +9,6 @@ function Header() {
   return (
     <header id="header">
       <div className="container header-container">
-        <h5>app</h5>
         <h5>Hello I'm</h5>
         <h1>Frozan Zahoor Shayan</h1>
         <h5 className="text-light">Teacher Of handicrafts</h5>

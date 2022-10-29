@@ -7,12 +7,16 @@ import Main from "./pages/main/main.page";
 function App() {
   const router = createBrowserRouter(
     [
+      // {
+      //   path: "/",
+      //   element: <Navigate to="en/main" />,
+      // },
+      // {
+      //   path: "en/main",
+      //   element: <Main />,
+      // },
       {
         path: "/",
-        element: <Navigate to="en/main" />,
-      },
-      {
-        path: "en/main",
         element: <Main />,
       },
     ],
